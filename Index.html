@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./Style.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,300,0,0" />
+  <script src="./Main.js" defer></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <div>
+    <p class="error">Something Went Wrong</p>
+  </div>
+  <div class="wrapper">
+    <header>Currency Converter</header>
+    <form action="#">
+      <div class="amount">
+        <p>Enter Amount</p>
+        <input id="num" type="text" value="1">
+      </div>
+      <div class="drop-list">
+        <div class="from">
+          <p>From</p>
+          <div class="select-box">
+            <img src="https://flagcdn.com/48x36/us.png" alt="flag">
+            <select>
+              <!-- Options tag are inserted from JavaScript -->
+            </select>
+          </div>
+        </div>
+        <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrows-exchange"
+            width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M7 10h14l-4 -4"></path>
+            <path d="M17 14h-14l4 4"></path>
+          </svg></div>
+        <div class="to">
+          <p>To</p>
+          <div class="select-box">
+            <img src="https://flagcdn.com/48x36/dz.png" alt="flag">
+            <select>
+              <!-- Options tag are inserted from JavaScript -->
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="exchange-rate">1 USD = 142.00 DZD</div>
+      <button>Get Exchange Rate</button>
+    </form>
+  </div>
+</body>
+
+</html>
